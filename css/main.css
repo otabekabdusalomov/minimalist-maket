@@ -440,6 +440,37 @@ img {
     display: none;
   }
 }
+.btn {
+  cursor: pointer;
+  background-image: url("../images/btn-icon.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 17px 0 17px 0;
+  border: none;
+  width: 200px;
+  background-color: #203A4C;
+}
+.btn:hover {
+  background-color: #5FB4A2;
+  background-image: url("../images/btn-h-img.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: 0.8s;
+}
+.btn:active {
+  opacity: 0.2;
+}
+.btn__text {
+  margin: 0;
+  padding-left: 48px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 .hero {
   padding-bottom: 150px;
 }
