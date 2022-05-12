@@ -8,8 +8,30 @@
     <title>Scss-bem-starter</title>
 </head>
 <body>
-    <!--HEAD-->
-    <header></header>
+        <!-- HEADER -->
+        <header class="site-header">
+            <div class="container site-header__container">
+                <a class="site-header__logo-link" href="./index.html" target="_blank">
+                    <img class="site-header__logo" src="./images/logo.svg" alt="Logo Icon" width="60" height="32">
+                </a>
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            <a class="navbar__item-link" href="#">home</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a class="navbar__item-link" href="#">portfolio</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a class="navbar__item-link" href="#">contact me</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="hero__hamburger">
+                    <img class="hero__hamburger-icon" src="./images/hamburger.svg" alt="hamburger icon" width="24" height="13">
+                </button>
+            </div>
+        </header>
     <!--MAIN-->
     <main></main>
     <!--FOOTER-->
