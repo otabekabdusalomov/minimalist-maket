@@ -1,1 +1,89 @@
-//BU YERDA SYTIMIZNI HERO QISMIGA ISHLOV BERILADI
+.hero {
+    padding-bottom: 150px;
+    &__container {
+        background-image: url("../images/hero-selection.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 243px;
+    }
+    &__hamburger {
+        display: none;
+    }
+    &__image {
+        display: none;
+    }
+    &__wrapper {
+        width: 445px;
+        background-color: #FAFAFA;
+    }
+    &__heading {
+        margin: 0;
+        width: 390px;
+        padding-top: 56px;
+        font-family: 'Ibarra Real Nova';
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.446429px;
+        color: #33323D;
+        margin-bottom: 53px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .hero {
+        padding-bottom: 94px;
+        &__container {
+            background-image: url("../images/tablet-bg.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 0;
+            padding-top: 400px;
+        }
+        &__wrapper {
+            width:514px;
+            background-color: #FAFAFA;
+        }
+        &__heading {
+            width:458px;
+            margin-bottom: 48px;
+    }
+}
+}
+
+@media only screen and (max-width:600px) {
+    .hero {
+        padding-bottom: 96px;
+        &__container {
+            background-image: none;
+            padding: 0 32px;
+            margin: 0;
+        }
+        &__hamburger {
+            display: block;
+            margin-left: auto;
+            border: none;
+            background-color: transparent;
+        }
+        &__image {
+            display: block;
+            margin-bottom: 24px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__wrapper {
+            width: auto;
+            background-color: white;
+        }
+        &__heading {
+            padding: 0;
+            width: auto;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+            margin-bottom: 32px;
+        }
+    }
+}
